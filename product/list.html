@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品管理</title>
+    <link rel="stylesheet" href="css/list.css"/>
+</head>
+<body>
+    <header>
+            商品管理
+    </header>
+    <!--header-->
+    <div class="center">
+        <div class="center-top">
+            <div class="center-top-content">
+                <p>
+                        <div>商品名称：<input type="text" placeholder="商品名称"/></div>
+                        <div>
+                                商品状态：<select>
+                            <option value="">全部</option>
+                            <option value="">上架</option>
+                            <option value="">下架</option>
+                                        </select>
+                        </div>
+                <div>SPU：<input type="text" placeholder="SPU"/></div>
+                </p>
+                <p>
+                <div  style="margin-left: 27px">SKU：<input type="text" placeholder="SKU"/></div>
+                <div style="width: 60%">分类：<select>
+                    <option value="">全部一级分类</option>
+                    <option value="">分类1</option>
+                    <option value="">分类2</option>
+                </select>
+                    <select class="select">
+                        <option value="">全部二级分类</option>
+                        <option value="">分类1</option>
+                        <option value="">分类2</option>
+                    </select>
+                    <select class="select">
+                        <option value="">全部三级分类</option>
+                        <option value="">分类1</option>
+                        <option value="">分类2</option>
+                    </select>
+                    <button>查询</button>
+                    </p>
+            </div>
+            <!--center-top-content-->
+        </div>
+        <!--center-top-->
+        <div class="center-bottom">
+                <table width="100%">
+                    <tr>
+                        <th width="5%">序号</th>
+                        <th width="10%">SPU</th>
+                        <th width="30%">商品信息</th>
+                        <th width="10%">价格</th>
+                        <th width="10%">状态</th>
+                        <th width="20%">更新时间</th>
+                        <th width="10%">操作</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>112</td>
+                        <td class="txt">
+                            啊说暗号是拉开后撒拉黑是是是是谁谁谁水水水水试试你好啥时回来卡还是老卡号是老客户萨拉撒
+                        </td>
+                        <td style="color: red">$4</td>
+                        <td>下架</td>
+                        <td>2017-3-28</td>
+                        <td><a>修改</a><a>删除</a><a>下架</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>112</td>
+                        <td class="txt">
+                            啊说暗号是拉开后撒拉黑是是是是谁谁谁水水水水试试你好啥时回来卡还是老卡号是老客户萨拉撒
+                        </td>
+                        <td style="color: red">$4</td>
+                        <td>下架</td>
+                        <td>2017-3-28</td>
+                        <td><a>修改</a><a>删除</a><a>下架</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>112</td>
+                        <td class="txt">
+                            啊说暗号是拉开后撒拉黑是是是是谁谁谁水水水水试试你好啥时回来卡还是老卡号是老客户萨拉撒
+                        </td>
+                        <td style="color: red">$4</td>
+                        <td>下架</td>
+                        <td>2017-3-28</td>
+                        <td><a>修改</a><a>删除</a><a>下架</a></td>
+                    </tr>
+                </table>
+                <p>
+                    <span class="span">
+                        共111条数据
+                    </span>
+                    <div class="fr">
+            <i>首页</i><i style="color: lightgrey;cursor: not-allowed">上一页</i><i style="padding: 8px 15px;background:lightskyblue;color: white ">1</i><i style="padding: 8px 15px">2</i><i style="padding: 8px 15px">3</i><i style="padding: 8px 15px">4</i><i>下一页</i><i>末页</i><i>页码</i><i style="background: lightskyblue;color: white">跳转</i>
+                    </div>
+                </p>
+        </div>
+        </div>
+    <!--center-->
+</body>
+</html>

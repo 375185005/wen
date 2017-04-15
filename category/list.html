@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分类管理</title>
+    <link rel="stylesheet" href="css/list.css"/>
+    <script src="../frame/js/jquery-3.1.1.min%20(1).js"></script>
+    <script src="js/list.js"></script>
+</head>
+<body>
+        <header>分类管理</header>
+        <div class="main">
+            <div class="first">
+                <p>一级分类<span class="add">添加</span></p>
+                <div class="content">
+                </div>
+                <!--content-->
+            </div>
+            <!--first-->
+            <div class="first">
+                <p>二级分类<span class="add">添加</span></p>
+                <div class="content">
+                </div>
+                <!--content-->
+            </div>
+            <!--first-->
+            <div class="first">
+                <p>三级分类<span class="add">添加</span></p>
+                <div class="content">
+                </div>
+                <!--content-->
+            </div>
+            <!--first-->
+        </div>
+        <!--main-->
+        <div class="screen">
+        </div>
+        <!--screen-->
+        <div class="center">
+            <div class="center-top">
+                新增分类
+            </div>
+            <!--center-top-->
+            <div class="center-bottom">
+                <p>分类管理：<input type="text" placeholder="分类名称"/></p>
+                <p>分类状态：<select>
+                    <option value="">启用</option>
+                    <option value="">停用</option>
+                        </select>
+                </p>
+                <p>分类图片：<img src="../img/uploadicon.png" alt="" height="100" width="100"/></p>
+                <p>排&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;序：<input type="text" placeholder="排序"/></p>
+                <p>分类描述：<textarea placeholder="分类描述"></textarea></p>
+            </div>
+            <!--center-bottom-->
+            <button style="background: #00b7ee;margin-left: 200px;margin-right: 10px">确定</button>
+            <button style="background: gainsboro" id="cancel">取消</button>
+        </div>
+        <!--center-->
+</body>
+</html>

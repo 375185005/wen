@@ -1,0 +1,122 @@
+body{
+    width: 100%;
+    /*height: 100%;*/
+    /*background: green;*/
+    font-family: 'Microsoft Yahei',"\u5fae\u8f6f\u96c5\u9ed1",Arial,"\5b8b\4f53", sans-serif;
+    color: black;
+}
+body,header,p,div,select{
+    padding: 0;
+    margin: 0;
+}
+header{
+    margin: 0px 10px;
+    text-indent: 20px;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #3b9be5;
+}
+.center{
+    margin: 20px 30px;
+}
+.center .center-top{
+    width: 100%;
+    height: 130px;
+    border: 1px solid #3b9be5;
+}
+.center .center-top .center-top-content{
+    margin: 20px;
+    width: 100%;
+    /*height: 100%;*/
+    /*border: 1px solid saddlebrown;*/
+}
+.center .center-top .center-top-content p{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.center .center-top .center-top-content div{
+    display: inline-block;
+    width: 30%;
+    font-size: 14px;
+}
+.center .center-top .center-top-content div select,.center .center-top .center-top-content div input{
+    display: inline-block;
+    width: 200px;
+    height:25px ;
+    line-height: 25px;
+    border: 1px solid #3b9be5;
+    text-indent: 10px;
+}
+.select{
+    display: inline-block;
+    width: 200px;
+    height:25px ;
+    line-height: 25px;
+    border: 1px solid #3b9be5;
+    text-indent: 10px;
+}
+.center .center-top .center-top-content button{
+    color: white;
+    float: right;
+    background: #33ABF2;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #33ABF2;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.center .center-bottom{
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    border: 1px solid #3b9be5;
+}
+table{
+    border-collapse:separate ;
+    border-spacing: 0;
+}
+table th{
+    font-weight: normal;
+    background: #BDEBEE;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+table td{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.txt{
+    font-size: 14px;
+    color:#33ABF2 ;
+    text-align: left;
+}
+td a{
+    display: inline-block;
+    color: #0055aa;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.span{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+.fr{
+    float: right;
+    margin-right: 20px;
+}
+.fr i{
+    font-style: normal;
+    padding: 8px;
+    /*letter-spacing: 2px;*/
+    border: 1px solid lightskyblue;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-right: 5px;
+    cursor: pointer;
+}

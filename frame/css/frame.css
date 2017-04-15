@@ -1,0 +1,120 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    font-family:"Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+    height: 100%;
+}
+body,header,h2,p{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    position: absolute;
+    /*width: 100%;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background: linear-gradient(to right,#7a45e5 20%,#b23cef 80%);
+    color: white;
+}
+.header .title{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.header .title h2{
+    font-size: 30px;
+    font-family: 'Microsoft Yahei',"\u5fae\u8f6f\u96c5\u9ed1",Arial,"\5b8b\4f53", sans-serif;
+}
+.header .login{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    text-align: right;
+}
+.header .login p{
+    margin-top: 10px;
+}
+.main{
+    position: absolute;
+    top:120px;
+    left: 0;
+    right: 0;
+    /*background: red;*/
+    /*height: 100px;*/
+    bottom:0;
+}
+.main .main-left{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 200px;
+    border-top:1px solid white ;
+    border-right: 1px silver  solid;
+    height: 100%;
+    /*background: blue;*/
+    overflow: hidden;
+}
+.main .main-left .top{
+    border-left: 6px solid blue;
+    width: 100%;
+    height: 40px;
+    background: #3b9be5;
+    color: white;
+    line-height: 40px;
+    font-size: 16px;
+    font-family: 'Microsoft Yahei',"\u5fae\u8f6f\u96c5\u9ed1",Arial,"\5b8b\4f53", sans-serif;
+    text-indent: 10px;
+    cursor: pointer;
+}
+.main .main-left .bottom{
+    margin: 20px 0;
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    color: black;
+    /*text-align: center;*/
+    text-indent: 30px;
+    display: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.main .main-left .top span{
+    display: inline-block;
+    background: url("../../img/prd.png")no-repeat bottom center;
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin-right: 20px;
+    background-size: 25px;
+}
+.main .main-center{
+    position: absolute;
+    top:0;
+    left: 200px;
+    bottom: 0;
+    right: 0;
+}
+.main .main-center .main-center-top{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: lightgrey;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: 'Microsoft Yahei',"\u5fae\u8f6f\u96c5\u9ed1",Arial,"\5b8b\4f53", sans-serif;
+    text-indent: 10px;
+    display: none;
+}
+.main .main-center iframe{
+    width: 100%;
+    height: 100%;
+}

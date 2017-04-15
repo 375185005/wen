@@ -1,0 +1,58 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;;
+    background: linear-gradient(to bottom,#023479 30%,#000427 70%);
+    text-align: center;
+    color: #fff;
+}
+body,p,h1{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    margin: 0px auto;
+    width: 500px;
+    height: 500px;
+    background: url("../../img/login-bg.jpg")no-repeat;
+    background-size:500px ;
+    padding-top: 80px;
+    position: relative;
+    top: 80px;
+}
+.login h1{
+    font-size: 36px;
+    /*letter-spacing:-3px;*/
+    font-weight: 700;
+    text-shadow:1px 1px 1px #fff;
+    font-family: 'Microsoft Yahei',"\u5fae\u8f6f\u96c5\u9ed1",Arial,"\5b8b\4f53", sans-serif;;
+}
+.login p{
+    margin-top: 25px;
+    color: black;
+}
+.login p input{
+    background: white;
+    text-indent: 10px;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 7px;
+    font-size: 25px;
+}
+.login .button{
+    margin-top: 60px;
+}
+.login .button button{
+    width: 300px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    background: #ef4300;
+    border-radius: 7px;
+    font-size: 25px;
+    border: 1px solid #ff730e;
+    cursor: pointer;
+}
